@@ -1,0 +1,28 @@
+name: "acs_ygh_occupied_households_lacking_plumbing"
+tag: "acs"
+min_year: 2018
+max_year: 2018
+acs_table:
+    id: "B25048"
+    value_label: "Households by Plumbing Type"
+    dimension_labels: [
+        "plumbing facilities",
+    ]
+    columns:
+        002: "CompletePlumbingFacilities"
+        003: "LackingCompletePlumbingFacilities"
+
+calc_percent: true
+metadata:
+  topic: "Housing & Living"
+  subtopic: Housing
+  unit_of_measure: "Occupied Households"
+geos: [
+    #place,
+    #county,
+    #state,
+    #msa,
+    #puma,
+    #nation
+    cd
+]

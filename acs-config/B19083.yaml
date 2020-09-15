@@ -1,0 +1,28 @@
+name: "acs_yg_gini"
+min_year: 2018
+max_year: 2018
+acs_table:
+    id: "B19083"
+    value_label: "gini"
+    columns:
+        001: "GiniIndex"
+
+    # order matters, should be same as column labels
+    dimension_labels: [
+    ]
+
+geos: [
+    #nation,
+    #state,
+    #county,
+    #"puma",
+    #"msa",
+    #"place",
+    #"tract"
+    cd
+]
+
+tag: "acs"
+
+
+

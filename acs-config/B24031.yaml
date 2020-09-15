@@ -1,0 +1,54 @@
+---
+name: acs_ygi_industry_for_median_earnings
+acs_table:
+  id: B24031
+  value_label: Median Earnings by Industry
+  dimension_labels:
+    - "industry_ACS_B24031::industry_group"
+    - "industry_ACS_B24031::industry"
+  columns:
+    1: Total_Total
+    2: "Agriculture,Forestry,FishingAndHunting,AndMining_Agriculture,Forestry,FishingAndHunting,AndMining"
+    3: "Agriculture,Forestry,FishingAndHunting,AndMining_Agriculture,Forestry,FishingAndHunting"
+    4: "Agriculture,Forestry,FishingAndHunting,AndMining_Mining,Quarrying,AndOilAndGasExtraction"
+    5: Construction(group)_Construction
+    6: Manufacturing(group)_Manufacturing
+    7: WholesaleTrade(group)_WholesaleTrade
+    8: RetailTrade(group)_RetailTrade
+    9: "TransportationAndWarehousing,AndUtilities_TransportationAndWarehousing,AndUtilities"
+    10: "TransportationAndWarehousing,AndUtilities_TransportationAndWarehousing"
+    11: "TransportationAndWarehousing,AndUtilities_Utilities"
+    12: Information(group)_Information
+    13: "FinanceAndInsurance,AndRealEstateAndRentalAndLeasing_FinanceAndInsurance,AndRealEstateAndRentalAndLeasing"
+    14: "FinanceAndInsurance,AndRealEstateAndRentalAndLeasing_FinanceAndInsurance"
+    15: "FinanceAndInsurance,AndRealEstateAndRentalAndLeasing_RealEstateAndRentalAndLeasing"
+    16: "Professional,Scientific,AndManagement,AndAdministrativeAndWasteManagementServices_Professional,Scientific,AndManagement,AndAdministrativeAndWasteManagementServices"
+    17: "Professional,Scientific,AndManagement,AndAdministrativeAndWasteManagementServices_Professional,Scientific,AndTechnicalServices"
+    18: "Professional,Scientific,AndManagement,AndAdministrativeAndWasteManagementServices_ManagementOfCompaniesAndEnterprises"
+    19: "Professional,Scientific,AndManagement,AndAdministrativeAndWasteManagementServices_AdministrativeAndSupportAndWasteManagementServices"
+    20: "EducationalServices,AndHealthCareAndSocialAssistance_EducationalServices,AndHealthCareAndSocialAssistance"
+    21: "EducationalServices,AndHealthCareAndSocialAssistance_EducationalServices"
+    22: "EducationalServices,AndHealthCareAndSocialAssistance_HealthCareAndSocialAssistance"
+    23: "Arts,Entertainment,AndRecreation,AndAccommodationsAndFoodServices(group)_Arts,Entertainment,AndRecreation,AndAccommodationsAndFoodServices"
+    24: "Arts,Entertainment,AndRecreation,AndAccommodationsAndFoodServices_Arts,Entertainment,AndRecreation"
+    25: "Arts,Entertainment,AndRecreation,AndAccommodationsAndFoodServices_AccommodationAndFoodServices"
+    26: OtherServicesExceptPublicAdministration(group)_OtherServicesExceptPublicAdministration
+    27: PublicAdministration(group)_PublicAdministration
+min_year: 2018
+max_year: 2018
+non_agg: true
+explode: true
+metadata:
+  topic: Economy
+  subtopic: Industries
+  unit_of_measure: USD
+
+geos: [
+    #place,
+    #county,
+    #state,
+    #msa,
+    #puma,
+    #nation
+    cd
+]

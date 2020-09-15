@@ -1,0 +1,107 @@
+name: "acs_ygl_language_spoken_at_home_by_english_ability"
+tag: "acs"
+min_year: 2018
+max_year: 2018
+acs_table:
+    id: "B16001"
+    value_label: "Languages Spoken"
+    dimension_labels: [
+        "language_spoken_at_home",
+        "english_ability",
+    ]
+    columns:
+        002: "SpeakOnlyEnglish_SpeakEnglish\"veryWell\""
+        004: "SpanishOrSpanishCreole_SpeakEnglish\"veryWell\""
+        005: "SpanishOrSpanishCreole_SpeakEnglishLessThan\"veryWell\""
+        007: "French(incl.Patois,Cajun)_SpeakEnglish\"veryWell\""
+        008: "French(incl.Patois,Cajun)_SpeakEnglishLessThan\"veryWell\""
+        010: "FrenchCreole_SpeakEnglish\"veryWell\""
+        011: "FrenchCreole_SpeakEnglishLessThan\"veryWell\""
+        013: "Italian_SpeakEnglish\"veryWell\""
+        014: "Italian_SpeakEnglishLessThan\"veryWell\""
+        016: "PortugueseOrPortugueseCreole_SpeakEnglish\"veryWell\""
+        017: "PortugueseOrPortugueseCreole_SpeakEnglishLessThan\"veryWell\""
+        019: "German_SpeakEnglish\"veryWell\""
+        020: "German_SpeakEnglishLessThan\"veryWell\""
+        022: "Yiddish_SpeakEnglish\"veryWell\""
+        023: "Yiddish_SpeakEnglishLessThan\"veryWell\""
+        025: "OtherWestGermanicLanguages_SpeakEnglish\"veryWell\""
+        026: "OtherWestGermanicLanguages_SpeakEnglishLessThan\"veryWell\""
+        028: "ScandinavianLanguages_SpeakEnglish\"veryWell\""
+        029: "ScandinavianLanguages_SpeakEnglishLessThan\"veryWell\""
+        031: "Greek_SpeakEnglish\"veryWell\""
+        032: "Greek_SpeakEnglishLessThan\"veryWell\""
+        034: "Russian_SpeakEnglish\"veryWell\""
+        035: "Russian_SpeakEnglishLessThan\"veryWell\""
+        037: "Polish_SpeakEnglish\"veryWell\""
+        038: "Polish_SpeakEnglishLessThan\"veryWell\""
+        040: "Serbo-Croatian_SpeakEnglish\"veryWell\""
+        041: "Serbo-Croatian_SpeakEnglishLessThan\"veryWell\""
+        043: "OtherSlavicLanguages_SpeakEnglish\"veryWell\""
+        044: "OtherSlavicLanguages_SpeakEnglishLessThan\"veryWell\""
+        046: "Armenian_SpeakEnglish\"veryWell\""
+        047: "Armenian_SpeakEnglishLessThan\"veryWell\""
+        049: "Persian_SpeakEnglish\"veryWell\""
+        050: "Persian_SpeakEnglishLessThan\"veryWell\""
+        052: "Gujarati_SpeakEnglish\"veryWell\""
+        053: "Gujarati_SpeakEnglishLessThan\"veryWell\""
+        055: "Hindi_SpeakEnglish\"veryWell\""
+        056: "Hindi_SpeakEnglishLessThan\"veryWell\""
+        058: "Urdu_SpeakEnglish\"veryWell\""
+        059: "Urdu_SpeakEnglishLessThan\"veryWell\""
+        061: "OtherIndicLanguages_SpeakEnglish\"veryWell\""
+        062: "OtherIndicLanguages_SpeakEnglishLessThan\"veryWell\""
+        064: "OtherIndo-EuropeanLanguages_SpeakEnglish\"veryWell\""
+        065: "OtherIndo-EuropeanLanguages_SpeakEnglishLessThan\"veryWell\""
+        067: "Chinese_SpeakEnglish\"veryWell\""
+        068: "Chinese_SpeakEnglishLessThan\"veryWell\""
+        070: "Japanese_SpeakEnglish\"veryWell\""
+        071: "Japanese_SpeakEnglishLessThan\"veryWell\""
+        073: "Korean_SpeakEnglish\"veryWell\""
+        074: "Korean_SpeakEnglishLessThan\"veryWell\""
+        076: "Mon-Khmer,Cambodian_SpeakEnglish\"veryWell\""
+        077: "Mon-Khmer,Cambodian_SpeakEnglishLessThan\"veryWell\""
+        079: "Hmong_SpeakEnglish\"veryWell\""
+        080: "Hmong_SpeakEnglishLessThan\"veryWell\""
+        082: "Thai_SpeakEnglish\"veryWell\""
+        083: "Thai_SpeakEnglishLessThan\"veryWell\""
+        085: "Laotian_SpeakEnglish\"veryWell\""
+        086: "Laotian_SpeakEnglishLessThan\"veryWell\""
+        088: "Vietnamese_SpeakEnglish\"veryWell\""
+        089: "Vietnamese_SpeakEnglishLessThan\"veryWell\""
+        091: "OtherAsianLanguages_SpeakEnglish\"veryWell\""
+        092: "OtherAsianLanguages_SpeakEnglishLessThan\"veryWell\""
+        094: "Tagalog_SpeakEnglish\"veryWell\""
+        095: "Tagalog_SpeakEnglishLessThan\"veryWell\""
+        097: "OtherPacificIslandLanguages_SpeakEnglish\"veryWell\""
+        098: "OtherPacificIslandLanguages_SpeakEnglishLessThan\"veryWell\""
+        100: "Navajo_SpeakEnglish\"veryWell\""
+        101: "Navajo_SpeakEnglishLessThan\"veryWell\""
+        103: "OtherNativeNorthAmericanLanguages_SpeakEnglish\"veryWell\""
+        104: "OtherNativeNorthAmericanLanguages_SpeakEnglishLessThan\"veryWell\""
+        106: "Hungarian_SpeakEnglish\"veryWell\""
+        107: "Hungarian_SpeakEnglishLessThan\"veryWell\""
+        109: "Arabic_SpeakEnglish\"veryWell\""
+        110: "Arabic_SpeakEnglishLessThan\"veryWell\""
+        112: "Hebrew_SpeakEnglish\"veryWell\""
+        113: "Hebrew_SpeakEnglishLessThan\"veryWell\""
+        115: "AfricanLanguages_SpeakEnglish\"veryWell\""
+        116: "AfricanLanguages_SpeakEnglishLessThan\"veryWell\""
+        118: "OtherAndUnspecifiedLanguages_SpeakEnglish\"veryWell\""
+        119: "OtherAndUnspecifiedLanguages_SpeakEnglishLessThan\"veryWell\""
+
+calc_rca: true
+metadata:
+  topic: Diversity
+  subtopic: Heritage
+  unit_of_measure: People
+geos: [
+    #tract,
+    #place,
+    #county,
+    #state,
+    #msa,
+    #puma,
+    #nation
+    cd
+]

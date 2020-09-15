@@ -1,0 +1,24 @@
+name: "acs_yg_housing_median_value"
+tag: "acs"
+min_year: 2018
+max_year: 2018
+acs_table:
+    id: "B25077"
+    value_label: "housing_median_value"
+    dimension_labels: [
+        "",
+    ]
+    columns:
+        001: "MedianValue(dollars)"
+
+geos: [
+    #nation,
+    #state,
+    #county,
+    #"puma",
+    #"msa",
+    #"place",
+    #"tract"
+    cd
+]
+

@@ -1,0 +1,33 @@
+name: "acs_ygc_citizenship_status"
+tag: "acs"
+min_year: 2018
+max_year: 2018
+acs_table:
+    id: "B05001"
+    value_label: "Citizenship Status"
+    dimension_labels: [
+        "citizenship",
+        "citizenship_status_granular",
+    ]
+    columns:
+        002: "Citizen_U.S.Citizen,BornInTheUnitedStates"
+        003: "Citizen_U.S.Citizen,BornInPuertoRicoOrU.S.IslandAreas"
+        004: "Citizen_U.S.Citizen,BornAbroadOfAmericanParent(s)"
+        005: "Citizen_U.S.CitizenByNaturalization"
+        006: "Non-Citizen_NotAU.S.Citizen"
+
+
+metadata:
+  topic: Diversity
+  subtopic: Heritage
+  unit_of_measure: People
+geos: [
+    #tract,
+    #place,
+    #county,
+    #state,
+    #msa,
+    #puma,
+    #nation
+    cd
+]

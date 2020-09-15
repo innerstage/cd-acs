@@ -1,0 +1,83 @@
+name: "acs_ygh_health_care_coverage_overall"
+tag: "acs"
+
+min_year: 2018
+max_year: 2018
+
+acs_table:
+    id: "B27010"
+    value_label: "Health Insurance"
+    dimension_labels: [
+        "age",
+        "health_coverage",
+    ]
+    columns:
+        004: "Under18Years_WithOneTypeOfHealthInsuranceCoverage-WithEmployer-basedHealthInsuranceOnly"
+        005: "Under18Years_WithOneTypeOfHealthInsuranceCoverage-WithDirect-purchaseHealthInsuranceOnly"
+        006: "Under18Years_WithOneTypeOfHealthInsuranceCoverage-WithMedicareCoverageOnly"
+        007: "Under18Years_WithOneTypeOfHealthInsuranceCoverage-WithMedicaid/means-testedPublicCoverageOnly"
+        008: "Under18Years_WithOneTypeOfHealthInsuranceCoverage-WithTRICARE/militaryHealthCoverageOnly"
+        009: "Under18Years_WithOneTypeOfHealthInsuranceCoverage-WithVAHealthCareOnly"
+        011: "Under18Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-WithEmployer-basedAndDirect-purchaseCoverage"
+        012: "Under18Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-WithEmployer-basedAndMedicareCoverage"
+        013: "Under18Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-WithMedicareAndMedicaid/means-testedPublicCoverage"
+        014: "Under18Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-OtherPrivateOnlyCombinations"
+        015: "Under18Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-OtherPublicOnlyCombinations"
+        016: "Under18Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-OtherCoverageCombinations"
+        017: "Under18Years_NoHealthInsuranceCoverage"
+        020: "18To34Years_WithOneTypeOfHealthInsuranceCoverage-WithEmployer-basedHealthInsuranceOnly"
+        021: "18To34Years_WithOneTypeOfHealthInsuranceCoverage-WithDirect-purchaseHealthInsuranceOnly"
+        022: "18To34Years_WithOneTypeOfHealthInsuranceCoverage-WithMedicareCoverageOnly"
+        023: "18To34Years_WithOneTypeOfHealthInsuranceCoverage-WithMedicaid/means-testedPublicCoverageOnly"
+        024: "18To34Years_WithOneTypeOfHealthInsuranceCoverage-WithTRICARE/militaryHealthCoverageOnly"
+        025: "18To34Years_WithOneTypeOfHealthInsuranceCoverage-WithVAHealthCareOnly"
+        027: "18To34Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-WithEmployer-basedAndDirect-purchaseCoverage"
+        028: "18To34Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-WithEmployer-basedAndMedicareCoverage"
+        029: "18To34Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-WithMedicareAndMedicaid/means-testedPublicCoverage"
+        030: "18To34Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-OtherPrivateOnlyCombinations"
+        031: "18To34Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-OtherPublicOnlyCombinations"
+        032: "18To34Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-OtherCoverageCombinations"
+        033: "18To34Years_NoHealthInsuranceCoverage"
+        036: "35To64Years_WithOneTypeOfHealthInsuranceCoverage-WithEmployer-basedHealthInsuranceOnly"
+        037: "35To64Years_WithOneTypeOfHealthInsuranceCoverage-WithDirect-purchaseHealthInsuranceOnly"
+        038: "35To64Years_WithOneTypeOfHealthInsuranceCoverage-WithMedicareCoverageOnly"
+        039: "35To64Years_WithOneTypeOfHealthInsuranceCoverage-WithMedicaid/means-testedPublicCoverageOnly"
+        040: "35To64Years_WithOneTypeOfHealthInsuranceCoverage-WithTRICARE/militaryHealthCoverageOnly"
+        041: "35To64Years_WithOneTypeOfHealthInsuranceCoverage-WithVAHealthCareOnly"
+        043: "35To64Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-WithEmployer-basedAndDirect-purchaseCoverage"
+        044: "35To64Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-WithEmployer-basedAndMedicareCoverage"
+        045: "35To64Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-WithDirect-purchaseAndMedicareCoverage"
+        046: "35To64Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-WithMedicareAndMedicaid/means-testedPublicCoverage"
+        047: "35To64Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-OtherPrivateOnlyCombinations"
+        048: "35To64Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-OtherPublicOnlyCombinations"
+        049: "35To64Years_WithTwoOrMoreTypesOfHealthInsuranceCoverage-OtherCoverageCombinations"
+        050: "35To64Years_NoHealthInsuranceCoverage"
+        053: "65YearsAndOver_WithOneTypeOfHealthInsuranceCoverage-WithEmployer-basedHealthInsuranceOnly"
+        054: "65YearsAndOver_WithOneTypeOfHealthInsuranceCoverage-WithDirect-purchaseHealthInsuranceOnly"
+        055: "65YearsAndOver_WithOneTypeOfHealthInsuranceCoverage-WithMedicareCoverageOnly"
+        056: "65YearsAndOver_WithOneTypeOfHealthInsuranceCoverage-WithTRICARE/militaryHealthCoverageOnly"
+        057: "65YearsAndOver_WithOneTypeOfHealthInsuranceCoverage-WithVAHealthCareOnly"
+        059: "65YearsAndOver_WithTwoOrMoreTypesOfHealthInsuranceCoverage-WithEmployer-basedAndDirect-purchaseCoverage"
+        060: "65YearsAndOver_WithTwoOrMoreTypesOfHealthInsuranceCoverage-WithEmployer-basedAndMedicareCoverage"
+        061: "65YearsAndOver_WithTwoOrMoreTypesOfHealthInsuranceCoverage-WithDirect-purchaseAndMedicareCoverage"
+        062: "65YearsAndOver_WithTwoOrMoreTypesOfHealthInsuranceCoverage-WithMedicareAndMedicaid/means-testedPublicCoverage"
+        063: "65YearsAndOver_WithTwoOrMoreTypesOfHealthInsuranceCoverage-OtherPrivateOnlyCombinations"
+        064: "65YearsAndOver_WithTwoOrMoreTypesOfHealthInsuranceCoverage-OtherPublicOnlyCombinations"
+        065: "65YearsAndOver_WithTwoOrMoreTypesOfHealthInsuranceCoverage-OtherCoverageCombinations"
+        066: "65YearsAndOver_NoHealthInsuranceCoverage"
+
+
+calc_percent: true
+metadata:
+  topic: "Health & Safety"
+  subtopic: Coverage
+  unit_of_measure: People
+geos: [
+    #place,
+    #county,
+    #state,
+    #msa,
+    #puma,
+    #nation
+    cd
+]

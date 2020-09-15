@@ -1,0 +1,38 @@
+name: "acs_ygmt_mortgage_status_by_real_estate_taxes"
+tag: "acs"
+min_year: 2018
+max_year: 2018
+acs_table:
+    id: "B25102"
+    value_label: "Real Estate Taxes by Mortgage"
+    dimension_labels: [
+        "mortgage_status",
+        "real_estate_taxes_paid",
+    ]
+    columns:
+        003: "WithAMortgage_LessThan$800"
+        004: "WithAMortgage_$800To$1,499"
+        005: "WithAMortgage_$1,500To$1,999"
+        006: "WithAMortgage_$2,000To$2,999"
+        007: "WithAMortgage_$3,000OrMore"
+        008: "WithAMortgage_NoRealEstateTaxesPaid"
+        010: "NotMortgaged_LessThan$800"
+        011: "NotMortgaged_$800To$1,499"
+        012: "NotMortgaged_$1,500To$1,999"
+        013: "NotMortgaged_$2,000To$2,999"
+        014: "NotMortgaged_$3,000OrMore"
+        015: "NotMortgaged_NoRealEstateTaxesPaid"
+
+metadata:
+  topic: "Housing & Living"
+  subtopic: Housing
+  unit_of_measure: People
+geos: [
+    #place,
+    #county,
+    #state,
+    #msa,
+    #puma,
+    #nation
+    cd
+]
