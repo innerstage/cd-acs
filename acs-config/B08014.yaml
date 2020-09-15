@@ -1,0 +1,39 @@
+name: "acs_ygsv_gender_of_workers_by_vehicles_available"
+tag: "acs"
+min_year: 2018
+max_year: 2018
+acs_table:
+    id: "B08014"
+    value_label: "Commute Means by Gender"
+    dimension_labels: [
+        "gender",
+        "vehicles_available",
+    ]
+    columns:
+        009: "Male_NoVehicleAvailable"
+        010: "Male_1VehicleAvailable"
+        011: "Male_2VehiclesAvailable"
+        012: "Male_3VehiclesAvailable"
+        013: "Male_4VehiclesAvailable"
+        014: "Male_5OrMoreVehiclesAvailable"
+        016: "Female_NoVehicleAvailable"
+        017: "Female_1VehicleAvailable"
+        018: "Female_2VehiclesAvailable"
+        019: "Female_3VehiclesAvailable"
+        020: "Female_4VehiclesAvailable"
+        021: "Female_5OrMoreVehiclesAvailable"
+metadata:
+  topic: "Housing & Living"
+  subtopic: Transportation
+  unit_of_measure: People
+geos: [
+    #tract,
+    #place,
+    #county,
+    #state,
+    #msa,
+    #puma,
+    #zip,
+    #nation,
+    cd
+]

@@ -1,0 +1,34 @@
+name: "acs_ygt_aggregate_travel_time_to_work_by_transportation"
+tag: "acs"
+min_year: 2018
+max_year: 2018
+acs_table:
+    id: "B08136"
+    value_label: "Total Commute Time"
+    dimension_labels: [
+        "transportation::group",
+        "transportation::subgroup",
+        "transportation::transportation_means",
+    ]
+    columns:
+        003: "Car,Truck,OrVan_Car,Truck,OrVan_DroveAlone"
+        005: "Car,Truck,OrVan_Carpooled_In2-personCarpool"
+        006: "Car,Truck,OrVan_Carpooled_In3-or-more-personCarpool"
+        008: "PublicTransportation(excludingTaxicab)_PublicTransportation(excludingTaxicab)_BusOrTrolleyBus"
+        009: "PublicTransportation(excludingTaxicab)_PublicTransportation(excludingTaxicab)_StreetcarOrTrolleyCar(carroPublicoInPuertoRico),SubwayOrElevated"
+        010: "PublicTransportation(excludingTaxicab)_PublicTransportation(excludingTaxicab)_RailroadOrFerryboat"
+        011: "Walked_Walked_Walked"
+        012: "Taxicab,Motorcycle,Bicycle,OrOtherMeans_Taxicab,Motorcycle,Bicycle,OrOtherMeans_Taxicab,Motorcycle,Bicycle,OrOtherMeans"
+metadata:
+  topic: "Housing & Living"
+  subtopic: Transportation
+  unit_of_measure: Minutes
+geos: [
+    #place,
+    #county,
+    #state,
+    #msa,
+    #puma,
+    #nation,
+    cd
+]

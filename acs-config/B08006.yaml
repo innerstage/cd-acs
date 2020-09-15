@@ -1,0 +1,54 @@
+name: "acs_ygst_gender_of_workers_by_transportation_to_work"
+tag: "acs"
+min_year: 2018
+max_year: 2018
+acs_table:
+    id: "B08006"
+    value_label: "Commute Means by Gender"
+    dimension_labels: [
+        "gender",
+        "transportation::group",
+        "transportation::subgroup",
+        "transportation::transportation_means",
+    ]
+    columns:
+        020: "Male_Car,Truck,OrVan_Car,Truck,OrVan_DroveAlone"
+        022: "Male_Car,Truck,OrVan_Carpooled_In2-personCarpool"
+        023: "Male_Car,Truck,OrVan_Carpooled_In3-personCarpool"
+        024: "Male_Car,Truck,OrVan_Carpooled_In4-or-more-personCarpool"
+        026: "Male_PublicTransportation(excludingTaxicab)_PublicTransportation(excludingTaxicab)_BusOrTrolleyBus"
+        027: "Male_PublicTransportation(excludingTaxicab)_PublicTransportation(excludingTaxicab)_StreetcarOrTrolleyCar(carroPublicoInPuertoRico)"
+        028: "Male_PublicTransportation(excludingTaxicab)_PublicTransportation(excludingTaxicab)_SubwayOrElevated"
+        029: "Male_PublicTransportation(excludingTaxicab)_PublicTransportation(excludingTaxicab)_Railroad"
+        030: "Male_PublicTransportation(excludingTaxicab)_PublicTransportation(excludingTaxicab)_Ferryboat"
+        031: "Male_Bicycle_Bicycle_Bicycle"
+        032: "Male_Walked_Walked_Walked"
+        033: "Male_Taxicab,Motorcycle,OrOtherMeans_Taxicab,Motorcycle,OrOtherMeans_Taxicab,Motorcycle,OrOtherMeans"
+        034: "Male_WorkedAtHome_WorkedAtHome_WorkedAtHome"
+        037: "Female_Car,Truck,OrVan_Car,Truck,OrVan_DroveAlone"
+        039: "Female_Car,Truck,OrVan_Carpooled_In2-personCarpool"
+        040: "Female_Car,Truck,OrVan_Carpooled_In3-personCarpool"
+        041: "Female_Car,Truck,OrVan_Carpooled_In4-or-more-personCarpool"
+        043: "Female_PublicTransportation(excludingTaxicab)_PublicTransportation(excludingTaxicab)_BusOrTrolleyBus"
+        044: "Female_PublicTransportation(excludingTaxicab)_PublicTransportation(excludingTaxicab)_StreetcarOrTrolleyCar(carroPublicoInPuertoRico)"
+        045: "Female_PublicTransportation(excludingTaxicab)_PublicTransportation(excludingTaxicab)_SubwayOrElevated"
+        046: "Female_PublicTransportation(excludingTaxicab)_PublicTransportation(excludingTaxicab)_Railroad"
+        047: "Female_PublicTransportation(excludingTaxicab)_PublicTransportation(excludingTaxicab)_Ferryboat"
+        048: "Female_Bicycle_Bicycle_Bicycle"
+        049: "Female_Walked_Walked_Walked"
+        050: "Female_Taxicab,Motorcycle,OrOtherMeans_Taxicab,Motorcycle,OrOtherMeans_Taxicab,Motorcycle,OrOtherMeans"
+        051: "Female_WorkedAtHome_WorkedAtHome_WorkedAtHome"
+metadata:
+  topic: "Housing & Living"
+  subtopic: Transportation
+  unit_of_measure: People
+geos: [
+    #tract,
+    #place,
+    #county,
+    #state,
+    #msa,
+    #puma,
+    #nation,
+    cd
+]

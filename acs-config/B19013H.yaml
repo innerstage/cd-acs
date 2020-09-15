@@ -1,0 +1,26 @@
+name: "acs_ygr_median_household_income_race"
+tag: "acs"
+race_tag: "white_alone_nothispanic"
+min_year: 2018
+max_year: 2018
+acs_table:
+    id: "B19013H"
+    value_label: "Household Income by Race"
+    dimension_labels: [
+    ]
+    columns:
+        001: "MedianHouseholdIncome"
+metadata:
+  topic: "Housing & Living"
+  subtopic: Income
+  unit_of_measure: USD
+geos: [
+    #tract,
+    #place,
+    #county,
+    #state,
+    #msa,
+    #puma,
+    #nation,
+    cd
+]

@@ -1,0 +1,31 @@
+name: "acs_ygs_median_age_total"
+tag: "acs"
+min_year: 2018
+max_year: 2018
+acs_table:
+    id: "B01002"
+    value_label: "Median Age"
+    dimension_labels: [
+        "gender",
+    ]
+    columns:
+        001: "Total"
+        002: "Male"
+        003: "Female"
+
+non_agg: true
+
+metadata:
+  topic: Diversity
+  subtopic: Heritage
+  unit_of_measure: Years
+geos: [
+    #tract,
+    #place,
+    #county,
+    #state,
+    #msa,
+    #puma,
+    #nation,
+    cd
+]

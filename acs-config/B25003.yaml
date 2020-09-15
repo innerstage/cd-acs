@@ -1,0 +1,29 @@
+name: "acs_ygo_tenure"
+tag: "acs"
+min_year: 2018
+max_year: 2018
+acs_table:
+    id: "B25003"
+    value_label: "Household Ownership"
+    dimension_labels: [
+        "occupied_by",
+    ]
+    columns:
+        002: "OwnerOccupied"
+        003: "RenterOccupied"
+
+
+metadata:
+  topic: "Housing & Living"
+  subtopic: Housing
+  unit_of_measure: People
+geos: [
+    #tract,
+    #place,
+    #county,
+    #state,
+    #msa,
+    #puma,
+    #nation,
+    cd
+]
