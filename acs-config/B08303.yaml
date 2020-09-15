@@ -1,0 +1,39 @@
+name: "acs_ygt_travel_time_to_work"
+tag: "acs"
+min_year: 2018
+max_year: 2018
+acs_table:
+    id: "B08303"
+    value_label: "Commuter Population"
+    value_details: "Travel time to work among workers 16 years and over who did not work at home."
+    dimension_labels: [
+        "travel_time",
+    ]
+    columns:
+        002: "< 5 Minutes"
+        003: "5-9 Minutes"
+        004: "10-14 Minutes"
+        005: "15-19 Minutes"
+        006: "20-24 Minutes"
+        007: "25-29 Minutes"
+        008: "30-34 Minutes"
+        009: "35-39 Minutes"
+        010: "40-44 Minutes"
+        011: "45-59 Minutes"
+        012: "60-89 Minutes"
+        013: "90+ Minutes"
+metadata:
+  topic: "Housing & Living"
+  subtopic: Transportation
+  unit_of_measure: People
+geos: [
+    #tract,
+    #place,
+    #county,
+    #state,
+    #msa,
+    #puma,
+    #zip,
+    #nation,
+    cd
+]

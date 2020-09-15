@@ -1,0 +1,80 @@
+name: "acs_ygpsar_poverty_by_gender_age_race"
+tag: "acs"
+race_tag: "white_alone"
+min_year: 2018
+max_year: 2018
+acs_table:
+    id: "B17001A"
+    value_label: "Poverty Population"
+    dimension_labels: [
+        "poverty_status", "gender", "age"
+    ]
+    columns:
+        004: "IncomeInThePast12MonthsBelowPovertyLevel_Male_Under5Years"
+        005: "IncomeInThePast12MonthsBelowPovertyLevel_Male_5Years"
+        006: "IncomeInThePast12MonthsBelowPovertyLevel_Male_6To11Years"
+        007: "IncomeInThePast12MonthsBelowPovertyLevel_Male_12To14Years"
+        008: "IncomeInThePast12MonthsBelowPovertyLevel_Male_15Years"
+        009: "IncomeInThePast12MonthsBelowPovertyLevel_Male_16And17Years"
+        010: "IncomeInThePast12MonthsBelowPovertyLevel_Male_18To24Years"
+        011: "IncomeInThePast12MonthsBelowPovertyLevel_Male_25To34Years"
+        012: "IncomeInThePast12MonthsBelowPovertyLevel_Male_35To44Years"
+        013: "IncomeInThePast12MonthsBelowPovertyLevel_Male_45To54Years"
+        014: "IncomeInThePast12MonthsBelowPovertyLevel_Male_55To64Years"
+        015: "IncomeInThePast12MonthsBelowPovertyLevel_Male_65To74Years"
+        016: "IncomeInThePast12MonthsBelowPovertyLevel_Male_75YearsAndOver"
+        018: "IncomeInThePast12MonthsBelowPovertyLevel_Female_Under5Years"
+        019: "IncomeInThePast12MonthsBelowPovertyLevel_Female_5Years"
+        020: "IncomeInThePast12MonthsBelowPovertyLevel_Female_6To11Years"
+        021: "IncomeInThePast12MonthsBelowPovertyLevel_Female_12To14Years"
+        022: "IncomeInThePast12MonthsBelowPovertyLevel_Female_15Years"
+        023: "IncomeInThePast12MonthsBelowPovertyLevel_Female_16And17Years"
+        024: "IncomeInThePast12MonthsBelowPovertyLevel_Female_18To24Years"
+        025: "IncomeInThePast12MonthsBelowPovertyLevel_Female_25To34Years"
+        026: "IncomeInThePast12MonthsBelowPovertyLevel_Female_35To44Years"
+        027: "IncomeInThePast12MonthsBelowPovertyLevel_Female_45To54Years"
+        028: "IncomeInThePast12MonthsBelowPovertyLevel_Female_55To64Years"
+        029: "IncomeInThePast12MonthsBelowPovertyLevel_Female_65To74Years"
+        030: "IncomeInThePast12MonthsBelowPovertyLevel_Female_75YearsAndOver"
+        033: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Male_Under5Years"
+        034: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Male_5Years"
+        035: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Male_6To11Years"
+        036: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Male_12To14Years"
+        037: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Male_15Years"
+        038: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Male_16And17Years"
+        039: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Male_18To24Years"
+        040: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Male_25To34Years"
+        041: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Male_35To44Years"
+        042: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Male_45To54Years"
+        043: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Male_55To64Years"
+        044: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Male_65To74Years"
+        045: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Male_75YearsAndOver"
+        047: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Female_Under5Years"
+        048: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Female_5Years"
+        049: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Female_6To11Years"
+        050: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Female_12To14Years"
+        051: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Female_15Years"
+        052: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Female_16And17Years"
+        053: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Female_18To24Years"
+        054: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Female_25To34Years"
+        055: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Female_35To44Years"
+        056: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Female_45To54Years"
+        057: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Female_55To64Years"
+        058: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Female_65To74Years"
+        059: "IncomeInThePast12MonthsAtOrAbovePovertyLevel_Female_75YearsAndOver"
+
+metadata:
+  topic: "Housing & Living"
+  subtopic: Income
+  unit_of_measure: People
+geos: [
+    #tract,
+    #place,
+    #county,
+    #state,
+    #msa,
+    #puma,
+    #zip,
+    #nation,
+    cd
+]

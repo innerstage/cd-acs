@@ -1,0 +1,29 @@
+name: "acs_ygs_aggregate_travel_time_to_work"
+tag: "acs"
+min_year: 2018
+max_year: 2018
+acs_table:
+    id: "B08013"
+    value_label: "Total Commute Time"
+    dimension_labels: [
+        "gender",
+    ]
+    columns:
+        002: "Male"
+        003: "Female"
+
+
+metadata:
+  topic: "Housing & Living"
+  subtopic: Transportation
+  unit_of_measure: Minutes
+geos: [
+    #tract,
+    #place,
+    #county,
+    #state,
+    #msa,
+    #puma,
+    #nation,
+    cd
+]

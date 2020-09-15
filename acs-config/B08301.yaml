@@ -1,0 +1,46 @@
+name: "acs_ygt_means_of_transportation_to_work"
+tag: "acs"
+min_year: 2018
+max_year: 2018
+acs_table:
+    id: "B08301"
+    value_label: "Commute Means"
+    dimension_labels: [
+        "transportation::group",
+        "transportation::subgroup",
+        "transportation::transportation_means",
+    ]
+    columns:
+        003: "DroveAlone_DroveAlone(subgroup)_DroveAlone"
+        005: "Carpooled_Carpooled_In2-personCarpool"
+        006: "Carpooled_Carpooled_In3-personCarpool"
+        007: "Carpooled_Carpooled_In4-personCarpool"
+        008: "Carpooled_Carpooled_In5-Or6-personCarpool"
+        009: "Carpooled_Carpooled_In7-or-more-personCarpool"
+        011: "PublicTransit_PublicTransit_BusOrTrolleyBus"
+        012: "PublicTransit_PublicTransit_StreetcarOrTrolleyCar"
+        013: "PublicTransit_PublicTransit_SubwayOrElevated"
+        014: "PublicTransit_PublicTransit_Railroad"
+        015: "PublicTransit_PublicTransit_Ferryboat"
+        016: "Taxi_TaxiSubgroup_Taxi"
+        017: "Motorcycle_Motorcycle(subgroup)_Motorcycle"
+        018: "Bicycle_Bicycle(subgroup)_Bicycle"
+        019: "Walked_Walked(subgroup)_Walked"
+        020: "Other_Other_OtherMeans"
+        021: "WorkedAtHome_WorkedAtHome_WorkedAtHome"
+
+metadata:
+  topic: "Housing & Living"
+  subtopic: Transportation
+  unit_of_measure: People
+geos: [
+    #tract,
+    #place,
+    #county,
+    #state,
+    #msa,
+    #puma,
+    #zip,
+    #nation,
+    cd
+]
