@@ -20,7 +20,7 @@ geos: [
 
 explicit_col_mode: true
 
-#estimate: 1
+estimate: 1
 
 acs_table:
     id: "S2701_S2703_S2704"
